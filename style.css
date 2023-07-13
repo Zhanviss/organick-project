@@ -1,0 +1,208 @@
+html{
+    size-adjust: initial;
+}
+header{
+    font-family: Roboto;
+    font-weight: bold;
+    color: #274C5B; 
+    height: 135px;
+    width: 1757.79px;
+    padding-bottom: 69px;
+    padding-right: 162px;
+    fill: #FFFFFF;
+}
+body{
+    margin: 0px 0px 0px 0px;
+}
+nav{
+    position: flex; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    text-align: left;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+
+li{
+    display: inline-block;
+}
+
+.brand {
+    display: flex;
+    font-size: 38px;
+    text-align: left;
+    color: inherit;
+    font-family: inherit;
+    margin-right: 150px;
+}
+
+a{
+    font-size: 20px;
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    margin-right: 14.7px;
+}
+
+.navigation{
+    padding-right: 130px;
+}
+
+nav input[type="text"]{
+    width: 376px;
+    height: 66px;
+    border-radius: 36px;
+    fill: #FAFAFA;
+    background-image: url('search.svg');
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: center;
+}
+.search{
+    padding-right: 18px;
+}
+.cart{
+    width: 159px;
+    height: 66px;
+    border-radius: 36px;
+    background-color: transparent;
+    background-image: url('cart.svg');
+    background-repeat: no-repeat;
+    background-position-x: 2%;
+    background-position-y: center;
+    font-family: Roboto;
+    color: #274C5B;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.banner{
+    background: url("background.svg") no-repeat, url("Photo.png") no-repeat right;
+    background-color: #F1EFF0;
+    border: none;
+    width: 1920px;
+    height: 898px;
+    margin-bottom: 150px;
+}
+
+.textonbanner{
+    position: relative;
+    top: 361px;
+    left: 260px;
+    text-align: left top;
+    width: 530px;
+    height: 303px;
+}
+.firstrow{
+    font-family: Yellowtail;
+    font-size: 36px;
+    color: #68A47F;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    width: 237px;
+    height: 49px;
+}
+.secondrow{
+    font-size: 70px;
+    font-family: Roboto;
+    color: #274C5B;
+    font-weight: bolder;
+    width: 530px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+    margin-top: 0px;
+    margin-bottom: 23px;
+}
+.xplor{
+    width: 220px;
+    height: 79px;
+    background-color: #EFD372;
+    border: none;
+    border-radius: 16px;
+    color:#274C5B;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: url("arrow.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 97%;
+}
+
+.offerbanner{
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 180px;
+}
+.natural{
+    display: block;
+    position: relative;
+    background-image: url("pinkph.svg");
+    background-repeat: no-repeat;
+    width: 682.24px;
+    height: 367px;
+    background-position-x: center;
+    position: relative;
+    margin-left: 260px;
+    margin-right: 36px;
+}
+.naturaltext{
+    font-family: Yellowtail;
+    font-size: 36px;
+    color: #FFFFFF;
+    position: relative;
+    top: 120px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+}
+.garden{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 277px;
+    color: #FFFFFF;
+    margin-top: 120px;
+    margin-left: 45px;
+}
+.offer{
+    display: flex;
+    position: relative;
+    background-image: url("tenpercent.png");
+    background-repeat: no-repeat;
+    width: 682.24px;
+    height: 367px;
+    background-position-x: center;
+    position: relative;
+    top: -367px;
+    margin-left: 980px;
+    margin-right: 36px;
+    border-radius: 25px;
+}
+
+.offertext{
+    font-family: Yellowtail;
+    font-size: 36px;
+    color: #7EB693;
+    position: relative;
+    top: 80px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+}
+.tenperc{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 320px;
+    color:#274C5B;
+    margin-top: 165px;
+    position: relative;
+    margin-left: -98px;
+    margin-bottom: 0px;
+}
