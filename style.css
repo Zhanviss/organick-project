@@ -1,6 +1,4 @@
-html{
-    size-adjust: initial;
-}
+/* HEADER COMPONENTS*/
 header{
     font-family: Roboto;
     font-weight: bold;
@@ -18,7 +16,6 @@ nav{
     position: flex; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     left: 0;
-
 }
 
 .menu{
@@ -81,7 +78,9 @@ nav input[type="text"]{
     font-weight: 600;
     font-size: 18px;
 }
+/* || */
 
+/* BANNER COMPONENTS */
 .banner{
     background: url("background.svg") no-repeat, url("Photo.png") no-repeat right;
     background-color: #F1EFF0;
@@ -135,32 +134,27 @@ nav input[type="text"]{
     background-position-y: center;
     background-position-x: 97%;
 }
+/* || */
 
+/* OFFER BANNER COMPONENTS */
 .offerbanner{
+    display: flex;
+    justify-content: center;
     background-color: white;
     margin-top: 0px;
     margin-bottom: 180px;
 }
 .natural{
-    display: block;
-    position: relative;
     background-image: url("pinkph.svg");
     background-repeat: no-repeat;
     width: 682.24px;
     height: 367px;
-    background-position-x: center;
-    position: relative;
-    margin-left: 260px;
-    margin-right: 36px;
+    margin-right: 18px;
 }
 .naturaltext{
     font-family: Yellowtail;
     font-size: 36px;
     color: #FFFFFF;
-    position: relative;
-    top: 120px;
-    margin-bottom: 20px;
-    margin-left: 45px;
 }
 .garden{
     font-family: Roboto;
@@ -168,32 +162,20 @@ nav input[type="text"]{
     font-weight: bolder;
     width: 277px;
     color: #FFFFFF;
-    margin-top: 120px;
-    margin-left: 45px;
 }
 .offer{
-    display: flex;
-    position: relative;
     background-image: url("tenpercent.png");
     background-repeat: no-repeat;
     width: 682.24px;
     height: 367px;
-    background-position-x: center;
-    position: relative;
-    top: -367px;
-    margin-left: 980px;
-    margin-right: 36px;
     border-radius: 25px;
+    margin-left: 18px;
 }
 
 .offertext{
     font-family: Yellowtail;
     font-size: 36px;
     color: #7EB693;
-    position: relative;
-    top: 80px;
-    margin-bottom: 20px;
-    margin-left: 45px;
 }
 .tenperc{
     font-family: Roboto;
@@ -201,8 +183,14 @@ nav input[type="text"]{
     font-weight: bolder;
     width: 320px;
     color:#274C5B;
-    margin-top: 165px;
-    position: relative;
-    margin-left: -98px;
-    margin-bottom: 0px;
+}
+/* || */
+
+/* ABOUT COMPONENTS */
+.about{
+    margin-top: 0px;
+    background-image: url("about_background.svg");
+}
+.about_pic{
+    margin-top: 0px;
 }
